@@ -10,7 +10,7 @@ interface Item {
 const ITEMS: Item[] = [
   {
     q: "Is it really free?",
-    a: "Yes. No microtransactions, no ads, no signups. The game is open source — you can read every line on GitHub.",
+    a: "Yes. No microtransactions, no ads, no signups. The game is open source.",
   },
   {
     q: "Do I need an account?",
@@ -19,6 +19,47 @@ const ITEMS: Item[] = [
   {
     q: "What versions of Android does it support?",
     a: "Android 7.0 (Nougat) and newer. The APK is about 5 MB.",
+  },
+  {
+    q: "How do I earn Pokéballs?",
+    a: (
+      <>
+        Five ways. <strong>Catch milestones</strong> drop balls automatically
+        (every 3rd catch = +5 Poké, every 10th = +1 Great, every 25th = +1
+        Ultra). <strong>Every Arena win</strong> drops +3 Poké Balls plus
+        milestone bonuses (Great every 2nd, Ultra every 5th, Master every
+        10th). <strong>Spin & Win</strong> on Home gives random balls or
+        coins twice a day. <strong>Buy Balls</strong> in the Lab — trade
+        coins for balls (Poké 30, Great 100, Ultra 300, Master 2000).
+        <strong>Sell duplicates to Professor Oak</strong> to free up dex
+        space and bank some coins toward buying better balls.
+      </>
+    ),
+  },
+  {
+    q: "What are coins for?",
+    a: "Four things: evolving Pokémon in the Lab, buying balls in the Lab shop, skipping a wild encounter you don't want (1 coin), and showing off on the trainer card. Earn them from Arena wins, the Spin & Win wheel, or selling Pokémon to Oak.",
+  },
+  {
+    q: "Can I skip a Pokémon I don't want?",
+    a: "Yes — tap the \"Skip\" button under the wild Pokémon's name to spend 1 coin and roll a fresh encounter. Normal searches after a flee or empty zone are still free; you only pay when you actively skip an encounter you don't want.",
+  },
+  {
+    q: "Where can I see my coin history?",
+    a: "Tap the coins chip in the top header. The popup shows your current balance plus the last 40 transactions — earnings in green, spends in red, each labelled with the reason (Arena win #3, Bought 5 Poké Balls, Evolved Bulbasaur → Ivysaur, etc.).",
+  },
+  {
+    q: "Can I share my trainer profile?",
+    a: (
+      <>
+        Yes. Tap your trainer chip on Home → <strong>Share trainer card</strong>.
+        You'll see a styled card with your level, tier (Rookie → Apprentice →
+        Trainer → Veteran → Champion), unique catches, Arena wins, coin
+        balance, and your top 3 most-caught Pokémon. The Share button opens
+        your phone's native share sheet; otherwise the summary is copied to
+        clipboard so you can paste it anywhere.
+      </>
+    ),
   },
   {
     q: "Is the data real Pokémon data?",
