@@ -7,7 +7,7 @@
  * project-site deploy (/Pokemon-site/).
  */
 export const LINKS = {
-  apkDownload: `${import.meta.env.BASE_URL}pokemon-safari.apk`,
+  apkDownload: `${import.meta.env.BASE_URL}pokemon-safari-v2.apk`,
   /** Set to a Play Store URL once published; null hides the button. */
   playStore: null as string | null,
   /** Personal profiles only — no per-repo source links here. */
